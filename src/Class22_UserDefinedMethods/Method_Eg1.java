@@ -2,7 +2,7 @@ package Class22_UserDefinedMethods;
 
 import java.util.Scanner;
 
-public class MethodEg1 {
+public class Method_Eg1 {
 
     public static void main(String[] args) {
 

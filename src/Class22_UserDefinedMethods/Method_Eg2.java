@@ -1,6 +1,6 @@
 package Class22_UserDefinedMethods;
 
-public class MethodEg2 {
+public class Method_Eg2 {
 
     public static void main(String[] s) {
 
