@@ -17,6 +17,9 @@ public class BankTest {
         voldAcc.withdraw(100);
         voldAcc.showBalance();
 
+        System.out.println(voldAcc.accountName);
+        System.out.println(voldAcc.accountNumber);
+
 
         BankClass kennethAcc = new BankClass();
         kennethAcc.showBalance();

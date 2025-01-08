@@ -1,4 +1,4 @@
-package Class23_ClassAndObject;
+package Class24_Constructor;
 
 public class BankClass {
     // 1. Variables
@@ -7,7 +7,25 @@ public class BankClass {
     String accountName;
     double accountBalance;
 
-    // 2. Methods
+    //2. Constructors - To initialize the variables
+
+    BankClass(int accountNumberFromUser, String accountNameFromUSer, int initialDeposit){
+        accountNumber= accountNumberFromUser;
+        accountName=accountNameFromUSer;
+        accountBalance=initialDeposit;
+    }
+
+    BankClass(){
+
+    }
+
+    //Default constructor created by JAVA
+//    BankClass(){
+//
+//    }
+
+
+    // 3. Methods
 
     void openAccount(String type){
         System.out.println("New account opened " +type);
@@ -25,10 +43,6 @@ public class BankClass {
 
     void showBalance(){
         System.out.println("You account Balance is " + accountBalance);
-    }
-
-    void test(){
-
     }
 
 
