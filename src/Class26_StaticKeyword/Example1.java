@@ -24,12 +24,15 @@ public class Example1 {
         Bike b2 = new Bike();
         b2.price=200;
 
-        b2.updateData(300);
+        b2.updateData(300,200);
+//
+//        b1.printData();
+//        b2.printData();
 
-        b1.printData();
-        b2.printData();
+        System.out.println(b1);
 
-
+        int add = 10;
+        System.out.println(add);
           //0 0
     }
 
