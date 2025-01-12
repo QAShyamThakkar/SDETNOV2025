@@ -22,7 +22,7 @@ class AdvCalculator extends Calculator { //child
 }
 
 class MultiAdvCalculator extends Calculator {
-    void Modulo(int a, int b){
+    void modulo(int a, int b){
         System.out.println(a%b);
 
     }

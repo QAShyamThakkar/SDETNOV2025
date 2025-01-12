@@ -1,6 +1,10 @@
 package Class26_StaticKeyword;
 
 class Bike {
+
+    int bigNumFromUser = 10;
+    double PAI = 3.14;
+    
     int speed;
     static int price;
 
