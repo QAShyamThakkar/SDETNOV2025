@@ -24,6 +24,11 @@ class Child2 extends Parent1{
          System.out.println("4. I am parameterised const in Child");
     }
 
+    Child2(String a){
+//        this();
+        System.out.println("4. I am parameterised const in Child");
+    }
+
 }
 
 public class ConstructorChainingEg2 {
