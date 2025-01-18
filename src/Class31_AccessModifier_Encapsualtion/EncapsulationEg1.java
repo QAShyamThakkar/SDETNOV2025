@@ -1,9 +1,9 @@
 package Class31_AccessModifier_Encapsualtion;
 
 class Bank {
-    int balance;
+    private int balance;
 
-   Bank(int balance) {
+    Bank(int balance) {
         this.balance = balance;
     }
 
@@ -14,16 +14,26 @@ class Bank {
     void deposit(int amount) {
         balance = balance + amount;
     }
+
+    void getBalance() {
+        System.out.println(balance);
+    }
+
+    void setBalance(int balance) {
+
+        this.balance = balance;
+        System.out.println("Balance is updated today");
+    }
+
 }
 
 public class EncapsulationEg1 {
     public static void main(String[] args) {
         Bank kAc = new Bank(100);
-        System.out.println(kAc.balance);
+        kAc.getBalance();
 
-        kAc.balance = 10000000;
-
-
+        kAc.setBalance(10000000);
+        kAc.getBalance();
 
     }
 
